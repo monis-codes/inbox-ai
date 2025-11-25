@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "sender": "Sarah Chen",
+    "senderAvatar": "https://i.pravatar.cc/150?img=1",
+    "subject": "Q4 Project Roadmap Review",
+    "body": "Hi team,\n\nI wanted to sync on the Q4 roadmap and get your feedback on the proposed timeline. We have several critical milestones coming up:\n\n1. Backend API completion by Nov 30\n2. Frontend integration by Dec 15\n3. User testing phase starting Dec 20\n\nPlease review the attached document and come prepared with your thoughts for our Thursday meeting at 2 PM.\n\nLet me know if you have any concerns about these deadlines.\n\nBest regards,\nSarah",
+    "timestamp": "2024-11-24T10:30:00Z",
+    "preview": "I wanted to sync on the Q4 roadmap and get your feedback on the proposed timeline...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "2",
+    "sender": "Vercel Digest",
+    "senderAvatar": "https://i.pravatar.cc/150?img=2",
+    "subject": "Your Weekly Deployment Summary",
+    "body": "Hi there,\n\nHere's your weekly deployment summary:\n\n📊 This week's stats:\n- 24 successful deployments\n- 99.98% uptime\n- 2.3s average build time\n- 0 failed builds\n\n🚀 Top performing projects:\n1. email-assistant-frontend (12 deploys)\n2. api-gateway (8 deploys)\n3. analytics-dashboard (4 deploys)\n\nKeep up the great work!\n\nThe Vercel Team",
+    "timestamp": "2024-11-23T17:15:00Z",
+    "preview": "This week you deployed 24 applications with 99.98% uptime...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "3",
+    "sender": "Alex Rodriguez",
+    "senderAvatar": "https://i.pravatar.cc/150?img=3",
+    "subject": "Meeting Notes - Design System Update",
+    "body": "Hi everyone,\n\nThanks for joining today's design system sync. Here are the key action items:\n\n✅ Action Items:\n1. Finalize component specifications by Friday EOD\n2. Update design tokens in Figma by next Monday\n3. Schedule design review session for next Wednesday\n4. Document new accessibility guidelines\n\n📝 Decisions Made:\n- Moving to 8px grid system\n- Adopting new color palette (warm neutrals)\n- Button variants reduced from 8 to 4\n\nLet me know if I missed anything or if you have questions about your assigned tasks.\n\nThanks,\nAlex",
+    "timestamp": "2024-11-23T14:45:00Z",
+    "preview": "Following up from our meeting. Here are the action items we discussed...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "4",
+    "sender": "Marketing Team",
+    "senderAvatar": "https://i.pravatar.cc/150?img=4",
+    "subject": "Campaign Launch Approval Needed",
+    "body": "Hello,\n\nThe Q4 marketing campaign is ready for launch! 🎉\n\n📋 Campaign Details:\n- Launch Date: December 1st\n- Target Audience: B2B SaaS companies\n- Budget: $50,000\n- Channels: LinkedIn, Email, Content Marketing\n\n🎨 Assets Ready:\n✓ Landing page design\n✓ Email templates (5 variations)\n✓ Social media graphics\n✓ Blog post series (4 articles)\n\n⚠️ ACTION REQUIRED:\nPlease review the campaign deck and provide approval by EOD tomorrow so we can meet our launch timeline.\n\nLink to deck: [Campaign Deck]\n\nThanks!\nMarketing Team",
+    "timestamp": "2024-11-22T09:20:00Z",
+    "preview": "The Q4 campaign is ready for launch. Please review the attached assets...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "5",
+    "sender": "GitHub",
+    "senderAvatar": "https://i.pravatar.cc/150?img=5",
+    "subject": "[email-assistant] Pull Request #42 Ready for Review",
+    "body": "A pull request has been opened and is ready for your review.\n\n👤 Author: @johndoe\n📦 Repository: email-assistant\n🔀 Branch: feature/rag-improvements\n\n📝 Description:\nImplements improved RAG context retrieval using semantic chunking and re-ranking. Performance improvements show 40% better relevance scores in tests.\n\nChanges:\n- Upgraded embedding model\n- Added hybrid search (dense + sparse)\n- Implemented context re-ranking\n- Added unit tests for new components\n\n+247 -89 lines changed across 8 files\n\n🔗 View Pull Request: https://github.com/user/email-assistant/pull/42",
+    "timestamp": "2024-11-21T16:30:00Z",
+    "preview": "A pull request has been opened and is ready for your review...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "6",
+    "sender": "Finance Department",
+    "senderAvatar": "https://i.pravatar.cc/150?img=6",
+    "subject": "Invoice #2024-1156 Payment Confirmation",
+    "body": "Dear Team Member,\n\nThis is to confirm that we have processed your expense reimbursement.\n\n💰 Payment Details:\n- Invoice Number: #2024-1156\n- Amount: $847.50\n- Payment Method: Direct Deposit\n- Processing Date: Nov 21, 2024\n- Expected in Account: Nov 25, 2024\n\n📎 Expense Breakdown:\n- Client dinner (Nov 10): $245.00\n- Conference registration: $450.00\n- Travel expenses: $152.50\n\nIf you have any questions, please contact finance@company.com.\n\nBest regards,\nFinance Team",
+    "timestamp": "2024-11-21T11:00:00Z",
+    "preview": "This is to confirm that we have processed your expense reimbursement...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "7",
+    "sender": "Product Updates",
+    "senderAvatar": "https://i.pravatar.cc/150?img=7",
+    "subject": "New Feature Release: Advanced Analytics Dashboard",
+    "body": "Hi Product Users!\n\nWe're excited to announce a major new feature: Advanced Analytics Dashboard! 📊\n\n✨ What's New:\n1. Real-time data visualization\n2. Custom report builder\n3. Export to PDF/Excel\n4. Scheduled email reports\n5. Team collaboration features\n\n🎓 Getting Started:\n- Watch our 5-minute tutorial video\n- Check out the documentation\n- Join our live demo webinar (Nov 28)\n\n🎁 Early Adopter Bonus:\nFirst 100 users to try the new dashboard get 3 months of premium features free!\n\nExplore the dashboard: [Launch Dashboard]\n\nHappy analyzing!\nProduct Team",
+    "timestamp": "2024-11-20T14:00:00Z",
+    "preview": "We're excited to announce a major new feature: Advanced Analytics Dashboard...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "8",
+    "sender": "HR Department",
+    "senderAvatar": "https://i.pravatar.cc/150?img=8",
+    "subject": "Reminder: Annual Performance Review Due Dec 1",
+    "body": "Hello,\n\nThis is a friendly reminder that your annual performance review is coming up.\n\n📅 Important Dates:\n- Self-assessment due: December 1\n- Manager review: December 8\n- Final discussion meeting: December 15\n\n📝 What You Need to Do:\n1. Complete self-assessment form (link below)\n2. Gather examples of your achievements\n3. List your professional development goals\n4. Schedule your review meeting with your manager\n\n🔗 Access the form: [Performance Review Portal]\n\nPlease don't hesitate to reach out if you have questions about the process.\n\nBest,\nHR Team",
+    "timestamp": "2024-11-20T09:30:00Z",
+    "preview": "This is a friendly reminder that your annual performance review is coming up...",
+    "read": true,
+    "tags": []
+  }
+]

@@ -1,0 +1,45 @@
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Environment variables
+backend/.env
+
+# Data files
+backend/data/*.json
+backend/!data/.gitkeep
+
+# IDE
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+backend/*.swo
+
+# OS
+backend/.DS_Store
+backend/Thumbs.db
+frontend/node_modules
+frontend/.next
+frontend/out
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/*.swo
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/pnpm-lock.yaml
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/dist/
+frontend/build/
+frontend/*.tsbuildinfo
+frontend/.DS_Store
+frontend/Thumbs.db
+Assignment - 2.pdf

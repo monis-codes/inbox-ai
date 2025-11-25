@@ -1,0 +1,1 @@
+"""Email Assistant API - Main Application Package"""
