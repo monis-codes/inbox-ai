@@ -57,8 +57,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "*",  # Change to ["http://localhost:3000"] for Next.js frontend
-        # "https://your-frontend-domain.com"  # Add production domain
+        "*", 
+        "https://inbox-ai-beta.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "e101",
+    "sender": "Jessica Martinez",
+    "senderAvatar": "https://i.pravatar.cc/150?img=10",
+    "subject": "Budget Approval Required - Q1 Marketing Campaign",
+    "body": "Hi Team,\n\nI need your sign-off on the Q1 marketing budget before we can proceed with the campaign launch.\n\n💰 Budget Breakdown:\n- Social Media Ads: $15,000\n- Content Creation: $8,000\n- Influencer Partnerships: $12,000\n- Analytics Tools: $3,000\n- Total: $38,000\n\n⚠️ URGENT: Please review and approve by end of day Friday. We're already a week behind schedule and our competitors are gaining market share.\n\nThe full proposal deck is attached. Let me know if you need any clarifications.\n\nBest,\nJessica",
+    "timestamp": "2024-11-25T09:15:00Z",
+    "preview": "I need your sign-off on the Q1 marketing budget before we can proceed...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "e102",
+    "sender": "IT Security Team",
+    "senderAvatar": "https://i.pravatar.cc/150?img=11",
+    "subject": "Mandatory Security Training - Deadline Nov 30",
+    "body": "Dear All,\n\nThis is a reminder that all employees must complete the annual cybersecurity awareness training by November 30th.\n\n🔒 Training Topics:\n- Phishing identification\n- Password best practices\n- Data protection policies\n- Secure remote work guidelines\n\n⏰ Time Required: 45 minutes\n🔗 Access Portal: [Security Training Hub]\n\n⚠️ Non-completion will result in system access restrictions starting December 1st.\n\nIf you've already completed it, please disregard this message.\n\nStay secure!\nIT Security Team",
+    "timestamp": "2024-11-25T08:00:00Z",
+    "preview": "This is a reminder that all employees must complete the annual cybersecurity...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e103",
+    "sender": "David Kim",
+    "senderAvatar": "https://i.pravatar.cc/150?img=12",
+    "subject": "RE: API Integration Issues - Need Your Input",
+    "body": "Hey,\n\nFollowing up on yesterday's call about the payment gateway integration.\n\n🐛 Issues Identified:\n1. Webhook signatures not validating correctly\n2. Timeout errors on transactions over $500\n3. Currency conversion rates not updating in real-time\n\n🔧 Proposed Solutions:\n- Update to webhook API v3\n- Increase timeout from 10s to 30s\n- Switch to live forex data feed\n\nCan we hop on a quick call tomorrow at 3 PM to discuss? This is blocking our release.\n\nAlso, the QA team found some edge cases in the refund flow that we should address.\n\nThanks,\nDavid",
+    "timestamp": "2024-11-24T16:30:00Z",
+    "preview": "Following up on yesterday's call about the payment gateway integration...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "e104",
+    "sender": "LinkedIn",
+    "senderAvatar": "https://i.pravatar.cc/150?img=13",
+    "subject": "You appeared in 47 searches this week",
+    "body": "Hi there,\n\n📊 Your Weekly LinkedIn Stats:\n\n👀 Profile Views: 124 (↑ 23% from last week)\n🔍 Search Appearances: 47\n🎯 Top Keywords: \"Full Stack Developer\", \"React\", \"Python\"\n💼 Job Matches: 8 new opportunities\n\n🌟 Trending in Your Network:\n- 3 of your connections changed jobs\n- 12 people viewed your recent post about AI\n- Your article on microservices got 89 reactions\n\n💡 Tip: Profiles with recent activity get 3x more views. Share an update today!\n\n[View Your Dashboard]\n\nBest,\nLinkedIn Team",
+    "timestamp": "2024-11-24T12:00:00Z",
+    "preview": "Your Weekly LinkedIn Stats: Profile Views: 124 (up 23% from last week)...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e105",
+    "sender": "Emma Thompson",
+    "senderAvatar": "https://i.pravatar.cc/150?img=14",
+    "subject": "Team Lunch Friday - Italian or Thai?",
+    "body": "Hey everyone! 🍕🍜\n\nWe're planning the team lunch for this Friday to celebrate shipping the new features!\n\n📍 Location Options:\n1. Bella Roma (Italian) - Great pasta, outdoor seating\n2. Bangkok Street (Thai) - Spicy curries, quick service\n3. Somewhere else? (Suggestions welcome!)\n\n🕐 Time: 12:30 PM\n💰 Budget: Company sponsored (up to $30/person)\n\nPlease vote by replying with your preference by Wednesday evening. We'll make a reservation once we have a headcount.\n\nAlso, let me know if you have any dietary restrictions I should know about.\n\nLooking forward to it!\nEmma",
+    "timestamp": "2024-11-24T10:45:00Z",
+    "preview": "We're planning the team lunch for this Friday to celebrate shipping...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e106",
+    "sender": "AWS Notifications",
+    "senderAvatar": "https://i.pravatar.cc/150?img=15",
+    "subject": "Billing Alert: Your AWS charges are higher than expected",
+    "body": "AWS Account Alert\n\n⚠️ Your estimated charges for November have exceeded your billing alert threshold.\n\n💳 Current Charges (Nov 1-24):\n- EC2 Instances: $234.56\n- RDS Database: $89.32\n- S3 Storage: $45.21\n- Data Transfer: $156.78\n- CloudWatch: $12.45\n\nTotal: $538.32 (Budget: $400.00)\n\n🔍 Top Cost Drivers:\n1. EC2 t3.large instance in us-east-1 (running 24/7)\n2. Increased data transfer from API (3x usual volume)\n3. New RDS snapshot retention (30 days)\n\n📊 View Detailed Cost Explorer Report: [Link]\n\n💡 Recommendations:\n- Consider auto-scaling schedules for non-production instances\n- Review S3 lifecycle policies\n- Enable cost anomaly detection\n\nAWS Billing Team",
+    "timestamp": "2024-11-23T18:20:00Z",
+    "preview": "Your estimated charges for November have exceeded your billing alert...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "e107",
+    "sender": "Rachel Green",
+    "senderAvatar": "https://i.pravatar.cc/150?img=16",
+    "subject": "User Research Session - Volunteers Needed",
+    "body": "Hi Product Team,\n\nWe're conducting user research sessions next week for the redesigned dashboard and need volunteers to observe/take notes.\n\n📅 Schedule:\n- Monday 2-4 PM: Enterprise users (3 sessions)\n- Wednesday 10 AM-12 PM: Startup users (2 sessions)\n- Friday 1-3 PM: Individual users (2 sessions)\n\n🎯 What We're Testing:\n- New navigation structure\n- Advanced filtering features\n- Customizable widget layouts\n- Dark mode implementation\n\n✍️ Your Role:\n- Observe user interactions\n- Take detailed notes on pain points\n- Help identify usability issues\n- NO need to speak during sessions\n\nThis is a great opportunity to see real users interact with our product! Coffee and snacks provided. 😊\n\nReply if you can make any of these slots.\n\nThanks!\nRachel",
+    "timestamp": "2024-11-23T14:00:00Z",
+    "preview": "We're conducting user research sessions next week for the redesigned dashboard...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e108",
+    "sender": "Stripe",
+    "senderAvatar": "https://i.pravatar.cc/150?img=17",
+    "subject": "Your payout of $3,247.89 is on its way",
+    "body": "Your payout is being processed\n\n💸 Payout Summary:\n- Amount: $3,247.89\n- Period: Nov 15 - Nov 22\n- Transactions: 127\n- Fees: $102.43\n\n📅 Expected Arrival: Nov 27, 2024\n💳 Destination: Bank account ending in ••4829\n\n📊 This Period's Highlights:\n✓ 3 new customers\n✓ $456 average transaction value (↑12%)\n✓ 98.4% successful payment rate\n✓ 0 disputes\n\n📈 Revenue Breakdown:\n- Subscriptions: $2,145.00 (66%)\n- One-time payments: $1,102.89 (34%)\n\n[View Detailed Payout Report]\n\nQuestions? Check our payout FAQ or contact support.\n\nThe Stripe Team",
+    "timestamp": "2024-11-23T09:30:00Z",
+    "preview": "Your payout is being processed. Amount: $3,247.89, Expected: Nov 27...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e109",
+    "sender": "Michael Chen",
+    "senderAvatar": "https://i.pravatar.cc/150?img=18",
+    "subject": "URGENT: Production Server Down - All Hands on Deck",
+    "body": "CRITICAL INCIDENT - IMMEDIATE ATTENTION REQUIRED\n\n🚨 Status: Production API server is unresponsive\n⏰ Started: 11:47 AM EST\n📊 Impact: 100% of users affected\n\n🔴 Current Situation:\n- Main API server returning 502 errors\n- Database connections timing out\n- CDN serving cached content only\n- Customer support receiving complaints\n\n👥 Incident Response Team Activated:\n- Michael (Incident Commander)\n- Dev Team: Sarah, Tom, Lisa\n- DevOps: James\n- Customer Success: notified\n\n📞 War Room: Zoom link in Slack #incidents channel\n\n⚡ Initial Assessment:\nLikely cause: Database connection pool exhaustion after traffic spike from viral social media post.\n\nEveryone: Please join the incident call immediately if you're available. We need all hands to diagnose and restore service.\n\nStatus Page: [Updated every 5 minutes]\n\n- Michael",
+    "timestamp": "2024-11-22T11:52:00Z",
+    "preview": "CRITICAL INCIDENT - Production API server is unresponsive, 100% of users affected...",
+    "read": false,
+    "tags": []
+  },
+  {
+    "id": "e110",
+    "sender": "Medium Daily Digest",
+    "senderAvatar": "https://i.pravatar.cc/150?img=19",
+    "subject": "Top stories for you: AI, Web Development, Startups",
+    "body": "Your personalized reading list for Nov 22\n\n📖 Today's Top Picks:\n\n1. \"The Future of AI Agents: Beyond ChatGPT\"\n   by Sarah Johnson • 12 min read • 2.3K claps\n   Exploring autonomous AI systems and their implications...\n\n2. \"I Built a $10K/Month SaaS in 6 Months (Here's How)\"\n   by Mike Startup • 8 min read • 5.1K claps\n   From idea to revenue: A founder's journey...\n\n3. \"React Server Components: A Deep Dive\"\n   by DevExpert • 15 min read • 892 claps\n   Understanding the architecture and performance benefits...\n\n4. \"Why I Quit My $200K Job at Google\"\n   by Alex Freeman • 6 min read • 8.9K claps\n   The hidden costs of corporate life...\n\n5. \"Building a RAG System with LangChain and Pinecone\"\n   by AI Engineer • 18 min read • 1.2K claps\n   Step-by-step tutorial with code examples...\n\n📊 Trending in Your Network:\n- 45 people you follow read about \"remote work\"\n- \"productivity\" gained 234 new stories this week\n\n[Read on Medium]\n\nHappy reading!\nMedium",
+    "timestamp": "2024-11-22T07:00:00Z",
+    "preview": "Your personalized reading list: AI Agents, SaaS Building, React Server Components...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e111",
+    "sender": "Legal Department",
+    "senderAvatar": "https://i.pravatar.cc/150?img=20",
+    "subject": "Contract Review Required - New Vendor Agreement",
+    "body": "Dear Team Lead,\n\n⚖️ Legal Review Request\n\nWe need your technical review of the proposed Software Licensing Agreement with CloudTech Solutions.\n\n📄 Document: Vendor_Agreement_CloudTech_2024.pdf\n🔍 Focus Areas:\n- Technical specifications (Section 4)\n- Data processing clauses (Section 7)\n- API usage limits (Appendix B)\n- Service Level Agreements (Section 9)\n\n⏰ Timeline:\n- Your review: Due Dec 1\n- Legal finalization: Dec 5\n- Contract signing: Dec 10\n\n⚠️ Key Concerns:\n1. Verify the API rate limits meet our needs (currently 10K req/day)\n2. Review data residency requirements (EU data must stay in EU)\n3. Confirm disaster recovery SLA (99.9% uptime guarantee)\n\nPlease review and provide comments in the shared document. Flag any technical red flags immediately.\n\nLet me know if you need clarification on any legal terminology.\n\nBest regards,\nLegal Team",
+    "timestamp": "2024-11-21T15:30:00Z",
+    "preview": "We need your technical review of the proposed Software Licensing Agreement...",
+    "read": true,
+    "tags": []
+  },
+  {
+    "id": "e112",
+    "sender": "Calendar Notification",
+    "senderAvatar": "https://i.pravatar.cc/150?img=21",
+    "subject": "Reminder: Sprint Planning Meeting in 1 hour",
+    "body": "📅 Upcoming Event Reminder\n\n🕐 Meeting: Sprint Planning - Sprint 24\n⏰ Time: Today at 2:00 PM - 3:30 PM EST\n📍 Location: Conference Room B / Zoom link in invite\n\n👥 Attendees:\n- Engineering Team (8 people)\n- Product Manager: Jessica\n- Scrum Master: Tom\n\n📋 Agenda:\n1. Review previous sprint outcomes (15 min)\n2. Prioritize backlog items (30 min)\n3. Capacity planning (20 min)\n4. Sprint goal definition (15 min)\n5. Task breakdown (20 min)\n\n📎 Pre-read Materials:\n- Sprint 23 Retrospective Notes\n- Product Roadmap Q1 2025\n- Technical Debt Tracking Sheet\n\n💡 Please come prepared with:\n- Your availability for the sprint\n- Any blockers or dependencies\n- Questions about backlog items\n\n[Join Zoom Meeting]\n[View Calendar Event]\n\nSee you there!\nGoogle Calendar",
+    "timestamp": "2024-11-21T13:00:00Z",
+    "preview": "Sprint Planning - Sprint 24 starts in 1 hour. Conference Room B or Zoom...",
+    "read": true,
+    "tags": []
+  }
+]
