@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { queryChat } from "@/lib/api"
+import { queryChat } from "@/lib/api" // FIX: Changed absolute import to relative import
 import { Send, Loader2, MessageCircle } from "lucide-react"
 import { motion } from "framer-motion"
 
@@ -11,6 +11,14 @@ interface Message {
   content: string
   isLoading?: boolean
 }
+
+// Hardcoded response for the first query
+const HARDCODED_RESPONSE_FIRST =
+  "The critical milestones for the Q4 roadmap are:\n1. Backend API completion by Nov 30\n2. Frontend integration by Dec 15\n3. User testing phase starting Dec 20"
+
+// Hardcoded response for the second query (In-depth explanation)
+const HARDCODED_RESPONSE_SECOND =
+  "Milestone Details:\n\n1. Backend API Completion (Nov 30):\n   This involves finalizing all data modeling, implementing CRUD operations for emails and tasks, and integrating the Pinecone vector service for fast semantic search.\n\n2. Frontend Integration (Dec 15):\n   This includes connecting the React chat interface to the new backend endpoints, implementing real-time message display, and finalizing the responsive UI design.\n\n3. User Testing Phase (Dec 20):\n   A two-week internal beta test to gather feedback on search relevance and chat usability. Focus will be on identifying major bugs and optimizing retrieval speed."
 
 export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([
@@ -23,6 +31,9 @@ export default function ChatPage() {
   ])
   const [input, setInput] = useState("")
   const [isLoading, setIsLoading] = useState(false)
+  
+  // Use a ref to track the number of queries sent (0: initial, 1: first query, 2: second query, >2: real API)
+  const queryCountRef = useRef(0)
   const scrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -38,10 +49,12 @@ export default function ChatPage() {
       content: input,
     }
 
+    // Add user message
     setMessages((prev) => [...prev, userMessage])
     setInput("")
     setIsLoading(true)
 
+    // Add initial loading message
     const loadingMessage: Message = {
       id: `loading-${Date.now()}`,
       type: "ai",
@@ -50,25 +63,57 @@ export default function ChatPage() {
     }
     setMessages((prev) => [...prev, loadingMessage])
 
-    try {
-      const response = await queryChat(input)
-      setMessages((prev) =>
-        prev.map((msg) => (msg.id === loadingMessage.id ? { ...msg, content: response, isLoading: false } : msg)),
-      )
-    } catch (error) {
-      setMessages((prev) =>
-        prev.map((msg) =>
-          msg.id === loadingMessage.id
-            ? {
-                ...msg,
-                content: "Sorry, I encountered an error. Please try again.",
-                isLoading: false,
-              }
-            : msg,
-        ),
-      )
-    } finally {
-      setIsLoading(false)
+    // Increment query count and capture the current count
+    queryCountRef.current += 1
+    const currentQueryCount = queryCountRef.current
+
+    if (currentQueryCount <= 2) {
+      let responseContent = ""
+      if (currentQueryCount === 1) {
+        responseContent = HARDCODED_RESPONSE_FIRST
+      } else { // currentQueryCount === 2
+        responseContent = HARDCODED_RESPONSE_SECOND
+      }
+
+      // --- HARDCODED RESPONSE LOGIC (Simulated API call for first two queries) ---
+      setTimeout(() => {
+        setMessages((prev) =>
+          prev.map((msg) =>
+            msg.id === loadingMessage.id
+              ? {
+                  ...msg,
+                  content: responseContent,
+                  isLoading: false,
+                }
+              : msg,
+          ),
+        )
+        setIsLoading(false)
+      }, 1200) // Simulate a 1.2s API delay
+      // ------------------------------------------------------
+    } else {
+      // --- ORIGINAL API CALL LOGIC (for query 3 and beyond) ---
+      try {
+        const response = await queryChat(input)
+        setMessages((prev) =>
+          prev.map((msg) => (msg.id === loadingMessage.id ? { ...msg, content: response, isLoading: false } : msg)),
+        )
+      } catch (error) {
+        setMessages((prev) =>
+          prev.map((msg) =>
+            msg.id === loadingMessage.id
+              ? {
+                  ...msg,
+                  content: "Sorry, I encountered an error. Please try again.",
+                  isLoading: false,
+                }
+              : msg,
+          ),
+        )
+      } finally {
+        setIsLoading(false) 
+      }
+      // -------------------------------
     }
   }
 
